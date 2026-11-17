@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8a9cf">
+  <title>For My Kajukatli 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow"></div>
+  <main>
+    <!-- 01: Princess gate -->
+    <section class="screen active" id="gateScreen">
+      <p class="eyebrow">01 — I MADE SOMETHING SPECIAL FOR UHH...💗</p>
+      <div class="castle-scene">
+        <div class="castle">
+          <div class="tower tower-left"><span class="tower-roof"></span><span class="tower-window"></span></div>
+          <div class="tower tower-right"><span class="tower-roof"></span><span class="tower-window"></span></div>
+          <div class="gate-frame">
+            <div class="gate-door left-door"><div class="door-panel"></div></div>
+            <div class="gate-door right-door"><div class="door-panel"></div></div>
+            <div class="heart-lock"><span class="keyhole"></span></div>
+            <div class="gate-arch"></div>
+          </div>
+          <div class="castle-base"></div>
+        </div>
+      </div>
+      <p class="gate-caption">A little entrance to a little world made just for you ✨</p>
+      <button class="main-btn" id="openGate">TAP TO OPEN THE GATE 🤭</button>
+    </section>
+
+    <!-- 02: Gift -->
+    <section class="screen" id="giftScreen">
+      <p class="eyebrow cursive-heading">GUESS, WHAT'S THIS FOR?</p>
+      <div class="gift-stage">
+        <div class="gift-box" id="giftBox">
+          <div class="gift-lid"><span class="bow"></span></div>
+          <div class="gift-body"><span class="ribbon-vertical"></span><span class="ribbon-horizontal"></span></div>
+        </div>
+        <div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✧</div>
+        <div class="sparkle sparkle-three">✦</div>
+      </div>
+      <button class="main-btn" id="openGift">TAP TO OPEN THE SURPRISE 🤭</button>
+      <div class="celebration hidden" id="celebration">
+        <div class="fireworks" aria-hidden="true"></div>
+        <p class="celebration-title">HAPPIESTTT PRINCESS DAYY</p>
+        <h1>KAJUKATLI 💗💗</h1>
+        <button class="main-btn" id="toPhotos">CONTINUE ✨</button>
+      </div>
+    </section>
+
+    <!-- 03: Photos -->
+    <section class="screen" id="photosScreen">
+      <p class="eyebrow">03 — A LITTLE GALLERY</p>
+      <h2 class="section-title">PRINCESS KI KHUBSURTI KI CHOTI SI JHALAK</h2>
+      <div class="slideshow">
+        <div class="photo-frame active-photo"><img src="photo1.jpg" alt="Kajukatli photo 1"><span>Our pretty princess 💗</span></div>
+        <div class="photo-frame"><img src="photo2.jpg" alt="Kajukatli photo 2"><span>Too lovely for words ✨</span></div>
+        <div class="photo-frame"><img src="photo3.jpg" alt="Kajukatli photo 3"><span>That precious smile 🌷</span></div>
+        <div class="photo-frame"><img src="photo4.jpg" alt="Kajukatli photo 4"><span>Forever my Kajukatli 👑</span></div>
+        <div class="slide-dots" id="slideDots"></div>
+      </div>
+      <p class="photo-note">Four little glimpses of one very special person.</p>
+      <button class="main-btn" id="toLetter">TAP TO READ MY LETTER 💌</button>
+    </section>
+
+    <!-- 04: Letter -->
+    <section class="screen" id="letterScreen">
+      <p class="eyebrow">04 — A LETTER, JUST FOR YOU</p>
+      <article class="letter-paper">
+        <div class="letter-top">♡ &nbsp; A LITTLE NOTE FOR MY PRINCESS &nbsp; ♡</div>
+        <div class="letter-content" id="letterContent"></div>
+        <span class="typing-cursor" id="cursor">|</span>
+      </article>
+      <button class="main-btn hidden" id="replayLetter">READ IT AGAIN 💗</button>
+    </section>
+  </main>
+  <div class="tiny-footer">MADE WITH LOTS OF PYAAR ♡</div>
+  <script src="script.js"></script>
+</body>
+      </html>
